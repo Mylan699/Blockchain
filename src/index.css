@@ -1,13 +1,40 @@
-body {
+/* Reset des styles pour supprimer les marges et les paddings par défaut */
+body, h1, p, button {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Styles globaux pour l'application */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Styles pour l'en-tête de la page */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styles pour les titres */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/* Styles pour les paragraphes */
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Styles pour les boutons */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
 }
